@@ -18,11 +18,7 @@ pipeline {
                 sh 'python3 --version'
             }
         }
-        stage('executing'){
-            steps{
-                sh 'python3 app.py'
-            }
-        }
+      
         
     }
 }
