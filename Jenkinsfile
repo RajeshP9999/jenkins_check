@@ -18,5 +18,11 @@ pipeline {
                 sh 'python3 --version'
             }
         }
+        stage('checking python version'){
+            steps{
+                sh 'python3 app.py'
+            }
+        }
+        
     }
 }
